@@ -81,12 +81,12 @@ body{
 }
 
 .pretty_alt{
-    color: brown;
-    text-decoration: line-through;
+    color: saddlebrown;
+    text-decoration: none;
 }
 
 .pretty_alt:hover{
-    color: rosybrown;
+    color: blanchedalmond;
     text-decoration: none;
 }
 
