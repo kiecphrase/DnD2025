@@ -14,7 +14,7 @@ body{
     top: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(to right bottom, rgba(70, 2, 8, 0.1), rgba(70, 2, 22, 0.4)), url('imgs/snow.gif'); 
+    background-image: linear-gradient(to right bottom, rgba(54, 54, 54, 0.9), rgba(54, 54, 54, 0.99)), url('imgs/snow.gif'); 
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -65,37 +65,37 @@ body{
 /* Aesthetic */
 
 .pretty{
-    color: crimson;
+    color: rosybrown;
     text-decoration: none;
 
     padding: 0.5rem;
     border-width: 0.1rem;
     border-style: ridge;
-    border-color: crimson;
+    border-color: rosybrown;
 }
 .pretty:hover{
-    color: rebeccapurple;
+    color: brown;
 
     border-style: dashed;
-    border-color: rebeccapurple;
+    border-color: brown;
 }
 
 .pretty_alt{
-    color: rebeccapurple;
+    color: brown;
     text-decoration: line-through;
 }
 
 .pretty_alt:hover{
-    color: crimson;
+    color: rosybrown;
     text-decoration: none;
 }
 
 .gen_text{
-    color: rgb(0, 0, 0);
+    color: rgb(201, 110, 0);
 }
 
 .gen_header{
-    color: darkred;
+    color: rosybrown;
 }
 /* Text Specific */
 
@@ -140,7 +140,7 @@ body{
         top: 0;
         width: 100%;
         height: 100%;
-        background-image: linear-gradient(to right bottom, rgba(70, 2, 8, 0.1), rgba(70, 2, 22, 0.4)), url('imgs/snow.gif'); 
+        background-image: linear-gradient(to right bottom, rgba(54, 54, 54, 0.9), rgba(54, 54, 54, 0.99)), url('imgs/snow.gif'); 
         background-repeat: no-repeat;
         -webkit-background-size: cover;
         -moz-background-size: cover;
