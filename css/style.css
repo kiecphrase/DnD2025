@@ -1,0 +1,209 @@
+/* General */
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    overflow: hidden;
+}
+
+/* Structural */
+.abs_holder {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right bottom, rgba(70, 2, 8, 0.1), rgba(70, 2, 22, 0.4)), url('imgs/snow.gif'); 
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+
+.ms{
+    position: absolute;
+    z-index: 2;
+    right: 2rem;
+    top: 0.5rem;
+}
+
+.ms_alt{
+    position: absolute;
+    z-index: 2;
+    left: 1rem;
+    top: 0.5rem;
+}
+
+.flexy{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text_dump{
+    width: 75%;
+    padding: 1rem;
+    height: auto;
+    overflow: auto;
+}
+
+.vis {
+    display: block;
+}
+
+.vis_alt{
+    display: none;
+}
+
+/* Aesthetic */
+
+.pretty{
+    color: crimson;
+    text-decoration: none;
+
+    padding: 0.5rem;
+    border-width: 0.1rem;
+    border-style: ridge;
+    border-color: crimson;
+}
+.pretty:hover{
+    color: rebeccapurple;
+
+    border-style: dashed;
+    border-color: rebeccapurple;
+}
+
+.pretty_alt{
+    color: rebeccapurple;
+    text-decoration: line-through;
+}
+
+.pretty_alt:hover{
+    color: crimson;
+    text-decoration: none;
+}
+
+.gen_text{
+    color: rgb(0, 0, 0);
+}
+
+.gen_header{
+    color: darkred;
+}
+/* Text Specific */
+
+.t1{
+    /* font-family: monospace; */
+    font-size: 0.8rem;
+}
+
+.t2{
+    /* font-family: monospace; */
+    font-size: 1.0rem;
+}
+
+.t3{
+    /* font-family: monospace; */
+    font-size: 1.2rem;
+}
+
+.t4{
+    /* font-family: monospace; */
+    font-size: 1.6rem;
+}
+
+.t5{
+    /* font-family: monospace; */
+    font-size: 2rem;
+}
+
+.center{
+    text-align: center;
+}
+
+
+@media only screen and (max-width:600px){
+
+    body{
+        overflow: hidden;
+    }
+    .abs_holder {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(to right bottom, rgba(70, 2, 8, 0.1), rgba(70, 2, 22, 0.4)), url('imgs/snow.gif'); 
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        overflow: hidden;
+    }
+
+    .flexy{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        overflow: hidden;
+        padding-right: 2rem;
+    }
+
+
+    .text_dump{
+        width: 75%;
+        padding: 1rem;
+        height: auto;
+        padding-right: 6rem;
+        overflow-y: scroll;
+    }
+
+    .vis {
+        display: none;
+    }
+
+    .vis_alt{
+        display: block;
+    }
+
+    .gen_text{
+        color: rgb(222, 248, 184);
+    }
+
+    .t1{
+    /* font-family: monospace; */
+    font-size: 0.9rem;
+    }
+
+    .t2{
+        /* font-family: monospace; */
+        font-size: 1.2rem;
+    }
+
+    .t3{
+        /* font-family: monospace; */
+        font-size: 1.4rem;
+    }
+
+    .t4{
+        /* font-family: monospace; */
+        font-size: 1.8rem;
+    }
+
+    .t5{
+        /* font-family: monospace; */
+        font-size: 2.2rem;
+    }
+}
